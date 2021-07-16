@@ -31,6 +31,7 @@
 		<classes>
 			<class name="framework.testCases.TC_LoginTest_01" />
 			<class name="framework.testCases.TC_LoginDDT_02" />
+			<class name="framework.testCases.TC_AddCustomerTest_03" />
 		</classes>
 	</test>  <!-- Test3 -->
 
