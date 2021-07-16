@@ -1,5 +1,7 @@
 # Selenium-Java-Hybrid-Automation-Framework👨‍💻
 
+[![Java CI with Maven](https://github.com/youvegotnigel/cucmber-java-testng-saucelabs/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/youvegotnigel/cucmber-java-testng-saucelabs/actions/workflows/maven.yml)
+
 ## How to run
 run
 ```bash
