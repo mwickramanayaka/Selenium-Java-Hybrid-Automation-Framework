@@ -6,7 +6,9 @@
 	<artifactId>BaseFramework.eBanking</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-<!--     plug-ins required for executing tests     -->                                                                                                                               
+	<!-- @author manul.wickramanayaka -->
+
+	<!-- plug-ins required for executing tests -->
 	<build>
 		<plugins>
 
@@ -19,7 +21,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -29,12 +31,12 @@
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
-			</plugin> 
+			</plugin>
 
 		</plugins>
 	</build>
 
-<!--    dependencies required for the project      -->
+	<!-- dependencies required for the project -->
 	<dependencies>
 
 		<dependency>

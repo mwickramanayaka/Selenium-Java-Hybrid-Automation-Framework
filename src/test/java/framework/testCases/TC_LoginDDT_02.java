@@ -10,6 +10,11 @@ import org.testng.annotations.Test;
 import framework.pageObjects.LoginPage;
 import framework.utilities.XLUtils;
 
+/**
+ * @author manul.wickramanayaka
+ *
+ */
+
 public class TC_LoginDDT_02 extends framework.BaseClass.BaseClass{
 
 	@Test(dataProvider="LoginData")

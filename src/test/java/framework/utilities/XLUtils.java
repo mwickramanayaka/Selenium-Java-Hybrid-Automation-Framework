@@ -13,6 +13,11 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * @author manul.wickramanayaka
+ *
+ */
+
 public class XLUtils {
 	
 	public static FileInputStream fi;
