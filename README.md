@@ -1,7 +1,5 @@
 # Selenium-Java-Hybrid-Automation-Framework👨‍💻
 
-[![Java CI with Maven]()]()
-
 ## How to run
 run
 ```bash
