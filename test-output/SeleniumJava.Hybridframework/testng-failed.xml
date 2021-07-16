@@ -38,6 +38,13 @@
           <include name="setup"/>
         </methods>
       </class> <!-- framework.testCases.TC_LoginDDT_02 -->
+      <class name="framework.testCases.TC_AddCustomerTest_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="addNewCustomer"/>
+        </methods>
+      </class> <!-- framework.testCases.TC_AddCustomerTest_03 -->
     </classes>
   </test> <!-- Test on firefox(failed) -->
   <test thread-count="5" name="Test on opera(failed)">

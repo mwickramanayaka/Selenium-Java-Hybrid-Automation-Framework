@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="15" failed="8" skipped="0">
+<testng-results retried="3" ignored="0" total="27" passed="15" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-16T10:07:27 IST" name="SeleniumJava.Hybridframework" finished-at="2021-07-16T10:12:11 IST" duration-ms="283747">
+  <suite started-at="2021-07-16T18:06:57 IST" name="SeleniumJava.Hybridframework" finished-at="2021-07-16T18:13:56 IST" duration-ms="419634">
     <groups>
     </groups>
-    <test started-at="2021-07-16T10:07:27 IST" name="Test on chrome" finished-at="2021-07-16T10:08:38 IST" duration-ms="70260">
+    <test started-at="2021-07-16T18:06:57 IST" name="Test on chrome" finished-at="2021-07-16T18:08:25 IST" duration-ms="87932">
       <class name="framework.testCases.TC_AddCustomerTest_03">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1ea9f6af]" started-at="2021-07-16T10:08:16 IST" name="setup" finished-at="2021-07-16T10:08:21 IST" duration-ms="4546" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1ea9f6af]" started-at="2021-07-16T18:07:59 IST" name="setup" finished-at="2021-07-16T18:08:04 IST" duration-ms="4752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1ea9f6af]" started-at="2021-07-16T10:08:21 IST" name="addNewCustomer" finished-at="2021-07-16T10:08:37 IST" duration-ms="16544" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1ea9f6af]" started-at="2021-07-16T18:08:04 IST" name="addNewCustomer" finished-at="2021-07-16T18:08:21 IST" duration-ms="17708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1ea9f6af]" started-at="2021-07-16T10:08:37 IST" name="tearDown" finished-at="2021-07-16T10:08:38 IST" duration-ms="431" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1ea9f6af]" started-at="2021-07-16T18:08:21 IST" name="tearDown" finished-at="2021-07-16T18:08:25 IST" duration-ms="3267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_AddCustomerTest_03 -->
       <class name="framework.testCases.TC_LoginDDT_02">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T10:07:37 IST" name="setup" finished-at="2021-07-16T10:07:41 IST" duration-ms="4656" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T18:07:09 IST" name="setup" finished-at="2021-07-16T18:07:14 IST" duration-ms="5033" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T10:07:42 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:07:53 IST" duration-ms="11005" status="PASS">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T18:07:15 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:07:28 IST" duration-ms="13381" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T10:07:54 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:07:59 IST" duration-ms="5511" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T18:07:28 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:07:34 IST" duration-ms="5598" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:31)
+at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,7 +113,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T10:07:59 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:08:05 IST" duration-ms="5764" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T18:07:34 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:07:40 IST" duration-ms="5630" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:31)
+at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,7 +171,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T10:08:05 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:08:16 IST" duration-ms="10583" status="PASS">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T18:07:40 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:07:51 IST" duration-ms="10317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,13 +187,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T10:08:16 IST" name="tearDown" finished-at="2021-07-16T10:08:16 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@188715b5]" started-at="2021-07-16T18:07:51 IST" name="tearDown" finished-at="2021-07-16T18:07:59 IST" duration-ms="8251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_LoginDDT_02 -->
       <class name="framework.testCases.TC_LoginTest_01">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@68999068]" started-at="2021-07-16T10:07:28 IST" name="setup" finished-at="2021-07-16T10:07:34 IST" duration-ms="6208" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@68999068]" started-at="2021-07-16T18:06:57 IST" name="setup" finished-at="2021-07-16T18:07:04 IST" duration-ms="6863" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,19 +204,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@68999068]" started-at="2021-07-16T10:07:34 IST" name="loginTest" finished-at="2021-07-16T10:07:36 IST" duration-ms="2132" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@68999068]" started-at="2021-07-16T18:07:04 IST" name="loginTest" finished-at="2021-07-16T18:07:06 IST" duration-ms="2349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@68999068]" started-at="2021-07-16T10:07:36 IST" name="tearDown" finished-at="2021-07-16T10:07:37 IST" duration-ms="648" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@68999068]" started-at="2021-07-16T18:07:06 IST" name="tearDown" finished-at="2021-07-16T18:07:09 IST" duration-ms="2701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_LoginTest_01 -->
     </test> <!-- Test on chrome -->
-    <test started-at="2021-07-16T10:08:38 IST" name="Test on edge" finished-at="2021-07-16T10:09:57 IST" duration-ms="79299">
+    <test started-at="2021-07-16T18:08:25 IST" name="Test on edge" finished-at="2021-07-16T18:10:13 IST" duration-ms="107888">
       <class name="framework.testCases.TC_AddCustomerTest_03">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@694abbdc]" started-at="2021-07-16T10:09:32 IST" name="setup" finished-at="2021-07-16T10:09:38 IST" duration-ms="6253" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@694abbdc]" started-at="2021-07-16T18:09:42 IST" name="setup" finished-at="2021-07-16T18:09:48 IST" duration-ms="6610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,17 +227,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@694abbdc]" started-at="2021-07-16T10:09:38 IST" name="addNewCustomer" finished-at="2021-07-16T10:09:57 IST" duration-ms="18344" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@694abbdc]" started-at="2021-07-16T18:09:48 IST" name="addNewCustomer" finished-at="2021-07-16T18:10:06 IST" duration-ms="17913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@694abbdc]" started-at="2021-07-16T10:09:57 IST" name="tearDown" finished-at="2021-07-16T10:09:57 IST" duration-ms="804" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@694abbdc]" started-at="2021-07-16T18:10:06 IST" name="tearDown" finished-at="2021-07-16T18:10:13 IST" duration-ms="6816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_AddCustomerTest_03 -->
       <class name="framework.testCases.TC_LoginDDT_02">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T10:08:51 IST" name="setup" finished-at="2021-07-16T10:08:56 IST" duration-ms="5425" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T18:08:58 IST" name="setup" finished-at="2021-07-16T18:09:04 IST" duration-ms="6331" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -248,7 +248,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T10:08:57 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:09:09 IST" duration-ms="12049" status="PASS">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T18:09:05 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:09:16 IST" duration-ms="11573" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -264,7 +264,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T10:09:09 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:09:15 IST" duration-ms="5866" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T18:09:16 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:09:22 IST" duration-ms="5524" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -287,7 +287,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:31)
+at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -322,7 +322,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T10:09:15 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:09:21 IST" duration-ms="5678" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T18:09:22 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:09:28 IST" duration-ms="5377" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -345,7 +345,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:31)
+at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -380,7 +380,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T10:09:21 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:09:31 IST" duration-ms="10503" status="PASS">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T18:09:28 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:09:39 IST" duration-ms="11134" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,13 +396,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T10:09:31 IST" name="tearDown" finished-at="2021-07-16T10:09:32 IST" duration-ms="627" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@44ebcd03]" started-at="2021-07-16T18:09:39 IST" name="tearDown" finished-at="2021-07-16T18:09:42 IST" duration-ms="2580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_LoginDDT_02 -->
       <class name="framework.testCases.TC_LoginTest_01">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@323b36e0]" started-at="2021-07-16T10:08:38 IST" name="setup" finished-at="2021-07-16T10:08:48 IST" duration-ms="9805" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@323b36e0]" started-at="2021-07-16T18:08:25 IST" name="setup" finished-at="2021-07-16T18:08:53 IST" duration-ms="28326" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -413,19 +413,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@323b36e0]" started-at="2021-07-16T10:08:48 IST" name="loginTest" finished-at="2021-07-16T10:08:50 IST" duration-ms="2628" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@323b36e0]" started-at="2021-07-16T18:08:53 IST" name="loginTest" finished-at="2021-07-16T18:08:56 IST" duration-ms="2229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@323b36e0]" started-at="2021-07-16T10:08:50 IST" name="tearDown" finished-at="2021-07-16T10:08:51 IST" duration-ms="539" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@323b36e0]" started-at="2021-07-16T18:08:56 IST" name="tearDown" finished-at="2021-07-16T18:08:58 IST" duration-ms="2498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_LoginTest_01 -->
     </test> <!-- Test on edge -->
-    <test started-at="2021-07-16T10:09:57 IST" name="Test on firefox" finished-at="2021-07-16T10:10:51 IST" duration-ms="53815">
-      <class name="framework.testCases.TC_LoginDDT_02">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T10:10:10 IST" name="setup" finished-at="2021-07-16T10:10:20 IST" duration-ms="9666" status="PASS">
+    <test started-at="2021-07-16T18:10:13 IST" name="Test on firefox" finished-at="2021-07-16T18:12:11 IST" duration-ms="118359">
+      <class name="framework.testCases.TC_AddCustomerTest_03">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1fa268de]" started-at="2021-07-16T18:11:12 IST" name="setup" finished-at="2021-07-16T18:11:39 IST" duration-ms="26938" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -436,7 +436,367 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T10:10:20 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:10:29 IST" duration-ms="9437" status="PASS">
+        <test-method retried="true" signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1fa268de]" started-at="2021-07-16T18:11:39 IST" name="addNewCustomer" finished-at="2021-07-16T18:11:55 IST" duration-ms="15813" status="SKIP">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Dismissed user prompt dialog: please fill all fields: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: please fill all fields: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:438)
+at framework.testCases.TC_AddCustomerTest_03.addNewCustomer(TC_AddCustomerTest_03.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method retried="true" signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1fa268de]" started-at="2021-07-16T18:11:55 IST" name="addNewCustomer" finished-at="2021-07-16T18:12:00 IST" duration-ms="5073" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: *[name='uid']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241
+*** Element info: {Using=name, value=uid}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='uid']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241
+*** Element info: {Using=name, value=uid}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at framework.pageObjects.LoginPage.setUserName(LoginPage.java:45)
+at framework.testCases.TC_AddCustomerTest_03.addNewCustomer(TC_AddCustomerTest_03.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method retried="true" signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1fa268de]" started-at="2021-07-16T18:12:00 IST" name="addNewCustomer" finished-at="2021-07-16T18:12:05 IST" duration-ms="5033" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: *[name='uid']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241
+*** Element info: {Using=name, value=uid}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='uid']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241
+*** Element info: {Using=name, value=uid}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at framework.pageObjects.LoginPage.setUserName(LoginPage.java:45)
+at framework.testCases.TC_AddCustomerTest_03.addNewCustomer(TC_AddCustomerTest_03.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1fa268de]" started-at="2021-07-16T18:12:05 IST" name="addNewCustomer" finished-at="2021-07-16T18:12:10 IST" duration-ms="5027" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: *[name='uid']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241
+*** Element info: {Using=name, value=uid}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='uid']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241
+*** Element info: {Using=name, value=uid}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at framework.pageObjects.LoginPage.setUserName(LoginPage.java:45)
+at framework.testCases.TC_AddCustomerTest_03.addNewCustomer(TC_AddCustomerTest_03.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@1fa268de]" started-at="2021-07-16T18:12:10 IST" name="tearDown" finished-at="2021-07-16T18:12:11 IST" duration-ms="1516" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 24404, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd69fcc5-96fe-4851-bfd3-8a5dc8e13241
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at framework.BaseClass.BaseClass.tearDown(BaseClass.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.testCases.TC_AddCustomerTest_03 -->
+      <class name="framework.testCases.TC_LoginDDT_02">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T18:10:28 IST" name="setup" finished-at="2021-07-16T18:10:38 IST" duration-ms="9523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T18:10:39 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:10:50 IST" duration-ms="10201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,7 +812,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T10:10:29 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:10:35 IST" duration-ms="5275" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T18:10:50 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:10:55 IST" duration-ms="5284" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -475,7 +835,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:31)
+at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -510,7 +870,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T10:10:35 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:10:40 IST" duration-ms="5218" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T18:10:55 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:11:00 IST" duration-ms="4887" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -533,7 +893,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:31)
+at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -568,7 +928,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T10:10:40 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:10:50 IST" duration-ms="9867" status="PASS">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T18:11:00 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:11:10 IST" duration-ms="9575" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -584,23 +944,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T10:10:50 IST" name="tearDown" finished-at="2021-07-16T10:10:51 IST" duration-ms="1364" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@359f7cdf]" started-at="2021-07-16T18:11:10 IST" name="tearDown" finished-at="2021-07-16T18:11:12 IST" duration-ms="2257" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 22160, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1b052fa9-7cfc-4ad1-8d0f-7c032be7522d]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 7240, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f9f7fa76-eaed-43d0-9437-ae4d495e6382]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 22160, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1b052fa9-7cfc-4ad1-8d0f-7c032be7522d
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 7240, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f9f7fa76-eaed-43d0-9437-ae4d495e6382
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -649,7 +1009,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_LoginDDT_02 -->
       <class name="framework.testCases.TC_LoginTest_01">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@4f18837a]" started-at="2021-07-16T10:09:57 IST" name="setup" finished-at="2021-07-16T10:10:07 IST" duration-ms="9234" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@4f18837a]" started-at="2021-07-16T18:10:13 IST" name="setup" finished-at="2021-07-16T18:10:24 IST" duration-ms="11355" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -660,27 +1020,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@4f18837a]" started-at="2021-07-16T10:10:07 IST" name="loginTest" finished-at="2021-07-16T10:10:08 IST" duration-ms="1752" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@4f18837a]" started-at="2021-07-16T18:10:24 IST" name="loginTest" finished-at="2021-07-16T18:10:26 IST" duration-ms="1975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@4f18837a]" started-at="2021-07-16T10:10:08 IST" name="tearDown" finished-at="2021-07-16T10:10:10 IST" duration-ms="1446" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@4f18837a]" started-at="2021-07-16T18:10:26 IST" name="tearDown" finished-at="2021-07-16T18:10:28 IST" duration-ms="1984" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 19964, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d821b415-ee00-4f68-b3c5-108d37003906]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 18336, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 73664cb6-94d1-4acf-afaa-1d107a2fac87]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 19964, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d821b415-ee00-4f68-b3c5-108d37003906
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 18336, moz:profile: C:\Users\manul.wickramanaya..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 73664cb6-94d1-4acf-afaa-1d107a2fac87
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -729,9 +1089,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_LoginTest_01 -->
     </test> <!-- Test on firefox -->
-    <test started-at="2021-07-16T10:10:51 IST" name="Test on opera" finished-at="2021-07-16T10:12:11 IST" duration-ms="79717">
+    <test started-at="2021-07-16T18:12:12 IST" name="Test on opera" finished-at="2021-07-16T18:13:56 IST" duration-ms="104294">
       <class name="framework.testCases.TC_AddCustomerTest_03">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@79924b]" started-at="2021-07-16T10:11:47 IST" name="setup" finished-at="2021-07-16T10:11:54 IST" duration-ms="6618" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@7b9a4292]" started-at="2021-07-16T18:13:22 IST" name="setup" finished-at="2021-07-16T18:13:33 IST" duration-ms="10644" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -742,17 +1102,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@79924b]" started-at="2021-07-16T10:11:54 IST" name="addNewCustomer" finished-at="2021-07-16T10:12:11 IST" duration-ms="17030" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@7b9a4292]" started-at="2021-07-16T18:13:33 IST" name="addNewCustomer" finished-at="2021-07-16T18:13:54 IST" duration-ms="21452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@79924b]" started-at="2021-07-16T10:12:11 IST" name="tearDown" finished-at="2021-07-16T10:12:11 IST" duration-ms="520" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_AddCustomerTest_03@7b9a4292]" started-at="2021-07-16T18:13:54 IST" name="tearDown" finished-at="2021-07-16T18:13:56 IST" duration-ms="1780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_AddCustomerTest_03 -->
       <class name="framework.testCases.TC_LoginDDT_02">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@4fb0f2b9]" started-at="2021-07-16T10:11:04 IST" name="setup" finished-at="2021-07-16T10:11:14 IST" duration-ms="9756" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@79924b]" started-at="2021-07-16T18:12:29 IST" name="setup" finished-at="2021-07-16T18:12:41 IST" duration-ms="12014" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -763,7 +1123,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@4fb0f2b9]" started-at="2021-07-16T10:11:14 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:11:25 IST" duration-ms="11144" status="PASS">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@79924b]" started-at="2021-07-16T18:12:41 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:12:53 IST" duration-ms="12339" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -779,7 +1139,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@4fb0f2b9]" started-at="2021-07-16T10:11:25 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:11:30 IST" duration-ms="5222" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@79924b]" started-at="2021-07-16T18:12:53 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:12:59 IST" duration-ms="5483" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -802,7 +1162,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:31)
+at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -837,7 +1197,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@4fb0f2b9]" started-at="2021-07-16T10:11:30 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:11:36 IST" duration-ms="5362" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@79924b]" started-at="2021-07-16T18:12:59 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:13:07 IST" duration-ms="7408" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -860,7 +1220,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:31)
+at framework.testCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -895,7 +1255,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@4fb0f2b9]" started-at="2021-07-16T10:11:36 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T10:11:47 IST" duration-ms="10697" status="PASS">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:framework.testCases.TC_LoginDDT_02@79924b]" started-at="2021-07-16T18:13:07 IST" name="loginDDT" data-provider="LoginData" finished-at="2021-07-16T18:13:21 IST" duration-ms="14451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -911,13 +1271,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@4fb0f2b9]" started-at="2021-07-16T10:11:47 IST" name="tearDown" finished-at="2021-07-16T10:11:47 IST" duration-ms="414" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginDDT_02@79924b]" started-at="2021-07-16T18:13:21 IST" name="tearDown" finished-at="2021-07-16T18:13:22 IST" duration-ms="1160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- framework.testCases.TC_LoginDDT_02 -->
       <class name="framework.testCases.TC_LoginTest_01">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@6b927fb]" started-at="2021-07-16T10:10:51 IST" name="setup" finished-at="2021-07-16T10:11:01 IST" duration-ms="9711" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:framework.testCases.TC_LoginTest_01@3e58a80e]" started-at="2021-07-16T18:12:12 IST" name="setup" finished-at="2021-07-16T18:12:20 IST" duration-ms="8137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -928,11 +1288,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@6b927fb]" started-at="2021-07-16T10:11:01 IST" name="loginTest" finished-at="2021-07-16T10:11:03 IST" duration-ms="2138" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:framework.testCases.TC_LoginTest_01@3e58a80e]" started-at="2021-07-16T18:12:20 IST" name="loginTest" finished-at="2021-07-16T18:12:27 IST" duration-ms="7236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@6b927fb]" started-at="2021-07-16T10:11:03 IST" name="tearDown" finished-at="2021-07-16T10:11:04 IST" duration-ms="483" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testCases.TC_LoginTest_01@3e58a80e]" started-at="2021-07-16T18:12:27 IST" name="tearDown" finished-at="2021-07-16T18:12:29 IST" duration-ms="1461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
