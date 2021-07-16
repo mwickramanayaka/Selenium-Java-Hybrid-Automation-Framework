@@ -19,7 +19,7 @@ in terminal
 ✅ Java<br>
 ✅ TextNG<br>
 ✅ page object model<br>
-✅ log4j2<br>
+✅ Log4j2<br>
 ✅ AutoIT<br>
 ✅ Extent reports<br>
 ✅ TestNG RetryAnalyzer<br>
