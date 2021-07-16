@@ -43,6 +43,8 @@ in terminal
     ![steps page](./.README/image3.PNG)
 
 ## Author
-* **Manul Wickramanayaka**  
-* [Linkedin](https://www.linkedin.com/in/manul-wickramanayaka-812337132/) 
-* 
+ 📜**Manul Wickramanayaka**  
+ 💡[Linkedin](https://www.linkedin.com/in/manul-wickramanayaka-812337132/) 
+ 💡[medium-Test Automation Hub](https://medium.com/test-automation-hub) 
+ 💡[dev.to](https://dev.to/mwickrmanayaka) 
+ 
