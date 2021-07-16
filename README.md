@@ -24,7 +24,8 @@ in terminal
 ✅ Data driven testing using DataProvider TestNG<br>
 ✅ multiple browser testing<br>
 
- 
+ ![graphical overview](./.README/Chrome.PNG)
+ (./.README/Chrome.PNG)
  ## Extent Report Highlights
 
 * Feature overview :
