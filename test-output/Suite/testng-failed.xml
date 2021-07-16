@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="eBanking.testCases.TC_LoginDDT_02">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginDDT"/>
+        </methods>
+      </class> <!-- eBanking.testCases.TC_LoginDDT_02 -->
+      <class name="eBanking.testCases.TC_AddCustomerTest_03">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="addNewCustomer"/>
+        </methods>
+      </class> <!-- eBanking.testCases.TC_AddCustomerTest_03 -->
+      <class name="eBanking.testCases.TC_LoginTest_01">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eBanking.testCases.TC_LoginTest_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

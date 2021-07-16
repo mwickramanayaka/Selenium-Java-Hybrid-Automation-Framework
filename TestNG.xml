@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- <suite name="SeleniumJava.HybridFramework" parallel="tests" thread-count="12"> -->
+
+<suite name="SeleniumJava.Hybridframework">
+	<listeners>
+		<listener class-name="framework.utilities.Reporting"></listener>
+	</listeners>
+
+	<test name="Test on chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="framework.testCases.TC_LoginTest_01" />
+			<class name="framework.testCases.TC_LoginDDT_02" />
+			<class name="framework.testCases.TC_AddCustomerTest_03" />
+		</classes>
+	</test> <!-- Test1 -->
+
+	<test name="Test on edge">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="framework.testCases.TC_LoginTest_01" />
+			<class name="framework.testCases.TC_LoginDDT_02" />
+			<class name="framework.testCases.TC_AddCustomerTest_03" />
+		</classes>
+	</test> <!-- Test2 -->
+
+	<test name="Test on firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="framework.testCases.TC_LoginTest_01" />
+			<class name="framework.testCases.TC_LoginDDT_02" />
+		</classes>
+	</test>  <!-- Test3 -->
+
+	<test name="Test on opera">
+		<parameter name="browser" value="opera"></parameter>
+		<classes>
+			<class name="framework.testCases.TC_LoginTest_01" />
+			<class name="framework.testCases.TC_LoginDDT_02" />
+			<class name="framework.testCases.TC_AddCustomerTest_03" />
+		</classes>
+	</test>   <!-- Test4 -->
+
+</suite> 
