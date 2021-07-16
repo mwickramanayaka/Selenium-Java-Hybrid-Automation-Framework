@@ -24,8 +24,8 @@ in terminal
 ✅ Data driven testing using DataProvider TestNG<br>
 ✅ multiple browser testing<br>
 
- ![graphical overview](./.README/Chrome.PNG)
- (./.README/Chrome.PNG)
+<a href="https://developer.android.com" target="_blank">
+
  ## Extent Report Highlights
 
 * Feature overview :
