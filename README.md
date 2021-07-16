@@ -23,8 +23,6 @@ in terminal
 ✅ TestNG RetryAnalyzer<br>
 ✅ Data driven testing using DataProvider TestNG<br>
 ✅ multiple browser testing<br>
-
-<img src="./.README/Chrome.PNG />
  
  ## Extent Report Highlights
 
