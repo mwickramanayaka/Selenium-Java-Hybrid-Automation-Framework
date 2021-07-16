@@ -23,7 +23,7 @@ in terminal
 ✅ AutoIT<br>
 ✅ Extent reports<br>
 ✅ TestNG RetryAnalyzer<br>
-✅ Data driven testing using TestNG DataProvider<br>
+✅ Data-Driven testing using TestNG DataProvider<br>
 ✅ multiple browser testing<br>
  
  ## Extent Report Highlights
