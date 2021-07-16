@@ -24,8 +24,8 @@ in terminal
 ✅ Data driven testing using DataProvider TestNG<br>
 ✅ multiple browser testing<br>
 
-<a href="https://developer.android.com" target="_blank">
-<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="sacindupasintha" height="30" width="40" />
+<img src="./.README/Chrome.PNG />
+ 
  ## Extent Report Highlights
 
 * Feature overview :
