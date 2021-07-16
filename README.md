@@ -38,8 +38,11 @@ in terminal
 * Capture error with screenshots and logs :
   <br>
     ![steps page](./.README/image3.PNG)
-    
+    * Capture error with screenshots and logs :
+  <br>
+    ![steps page](./.README/image3.PNG)
 
 ## Author
-* **Manul Wickramanayaka** - [Linkedin](https://www.linkedin.com/in/manul-wickramanayaka-812337132/) 
+* **Manul Wickramanayaka**  
+* [Linkedin](https://www.linkedin.com/in/manul-wickramanayaka-812337132/) 
 * 
