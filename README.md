@@ -7,7 +7,6 @@ run
 ```bash
 run.bat 
 ```
-file
 --------------------
 type
 ```bash
