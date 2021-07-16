@@ -31,20 +31,18 @@ in terminal
   <br>
     ![feature overview](./.README/image1.PNG)
     
- * Graphical overview :
+* Graphical overview :
   <br>
     ![graphical overview](./.README/image2.PNG)
 
 * Capture error with screenshots and logs :
   <br>
     ![steps page](./.README/image3.PNG)
-    * Capture error with screenshots and logs :
-  <br>
-    ![steps page](./.README/image3.PNG)
+ 
 
 ## Author
- 📜**Manul Wickramanayaka**  
- 💡[Linkedin](https://www.linkedin.com/in/manul-wickramanayaka-812337132/) 
- 💡[medium-Test Automation Hub](https://medium.com/test-automation-hub) 
- 💡[dev.to](https://dev.to/mwickrmanayaka) 
+ 📜**Manul Wickramanayaka**  <br>
+ 💡[Linkedin](https://www.linkedin.com/in/manul-wickramanayaka-812337132/) <br>
+ 💡[medium-Test Automation Hub](https://medium.com/test-automation-hub) <br>
+ 💡[dev.to](https://dev.to/mwickrmanayaka) <br>
  
