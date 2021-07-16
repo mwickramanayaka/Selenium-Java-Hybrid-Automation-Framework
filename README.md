@@ -1,13 +1,10 @@
-# Selenium-Java-Hybrid-Automation-Framework
-
-[![Java CI with Maven](https://github.com/mwickramanayaka/Selenium-Java-Hybrid-Automation-Framework/pulse)](https://github.com/mwickramanayaka/Selenium-Java-Hybrid-Automation-Framework/pulse)
+# Selenium-Java-Hybrid-Automation-Framework👨‍💻
 
 ## How to run
 run
 ```bash
 run.bat 
 ```
-file
 --------------------
 type
 ```bash
@@ -16,19 +13,19 @@ type
 in terminal
 
 ## Tech Stack and main features
-🟢 Selenium4
-🟢 java
-🟢 TextNG
-🟢 page object model
-🟢 log4j2
-🟢 AutoIT
-🟢 Extent reports
-🟢 TestNG RetryAnalyzer
-🟢 Data driven testing using DataProvider TestNG
-🟢 multiple browser testing
+✅ Selenium4<br>
+✅ java<br>
+✅ TextNG<br>
+✅ page object model<br>
+✅ log4j2<br>
+✅ AutoIT<br>
+✅ Extent reports<br>
+✅ TestNG RetryAnalyzer<br>
+✅ Data driven testing using DataProvider TestNG<br>
+✅ multiple browser testing
 
  
- ## Report Highlights
+ ## Extent Report Highlights
 
 * Feature overview:
   <br>
