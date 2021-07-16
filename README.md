@@ -33,13 +33,13 @@ in terminal
     
 * Graphical overview :
   <br> 
-  <br>  
+ 
     ![graphical overview](./.README/image2.PNG)
     
 
 * Capture error with screenshots and logs :
   <br>
-  <br>  
+
     ![steps page](./.README/image3.PNG)
  
 
