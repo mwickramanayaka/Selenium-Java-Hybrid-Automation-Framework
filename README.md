@@ -39,7 +39,7 @@ in terminal
   <br>
     ![steps page](./.README/image2.PNG)
 
-[Latest Report is Here🙂](https://youvegotnigel.github.io/cucmber-java-testng-saucelabs/)
+[Latest Report is Here🙂](https://youvegslabs/)
 
 ## Author
-* **Nigel Mulholland** - [Linkedin](https://www.linkedin.com/in/nigel-mulholland/) 
+* **Manul Wickramanayaka** - [Linkedin](https://snd/) 
