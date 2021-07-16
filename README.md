@@ -16,7 +16,7 @@ in terminal
 
 ## Tech Stack and main features
 ✅ Selenium4<br>
-✅ java<br>
+✅ Java<br>
 ✅ TextNG<br>
 ✅ page object model<br>
 ✅ log4j2<br>
@@ -24,7 +24,7 @@ in terminal
 ✅ Extent reports<br>
 ✅ TestNG RetryAnalyzer<br>
 ✅ Data-Driven testing using TestNG DataProvider<br>
-✅ multiple browser testing<br>
+✅ Multiple browser testing<br>
  
  ## Extent Report Highlights
 
