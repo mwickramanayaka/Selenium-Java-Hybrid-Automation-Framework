@@ -17,14 +17,23 @@ in terminal
 
 ## Tech Stack and main features
 ✅ Selenium4
+
 ✅ java
+
 ✅ TextNG
+
 ✅ page object model
+
 ✅ log4j2
+
 ✅ AutoIT
+
 ✅ Extent reports
+
 ✅ TestNG RetryAnalyzer
+
 ✅ Data driven testing using DataProvider TestNG
+
 ✅ multiple browser testing
 
  
