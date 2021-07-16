@@ -26,15 +26,15 @@ in terminal
  
  ## Extent Report Highlights
 
-### Feature overview :
+* Feature overview :
   <br>  
     ![feature overview](./.README/image1.PNG)
     
-### Graphical overview :
+* Graphical overview :
   <br> 
     ![graphical overview](./.README/image2.PNG)
 
-### Capture error with screenshots and logs :
+* Capture error with screenshots and logs :
   <br>
     ![steps page](./.README/image3.PNG)
  
