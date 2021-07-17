@@ -1,2 +1,2 @@
-cd D:\seleniumTests\Frameworks\SeleniumHybridFramework-ebankingAutomation\BaseFramework.eBanking
+cd D:\seleniumTests\Frameworks\SeleniumHybridFramework\BaseFramework
 mvn clean install
